@@ -1,0 +1,48 @@
+/* Link for reference: https://www.youtube.com/watch?v=verVsHz3Hq0  */
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    padding: 50px;
+    background-color: azure;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+ul {
+    list-style: none;
+}
+h1 {
+    width: 75%;
+    margin: 30px auto;
+}
+
+.character-list-container {
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.character {
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+/* universal character style */
+.character * {
+    color: #505961;
+}
+.character img { 
+    float: left;
+    margin-right: 20px;
+}

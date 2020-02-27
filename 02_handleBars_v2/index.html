@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CREDIT Link for reference: https://www.youtube.com/channel/UCfJILES-7PLVPgMQJCSJRNQ */
+ -->
+</head>
+<body>
+    <h1>Cities I've never been to!</h1>
+    <ul class="character-list-container"></ul>
+
+    <script id="character-template" type="text/x-handlebars-template">
+        {{#each characters}}
+        <li class="character">
+            <img src="/images/{{shortCode}}.jpg">
+            <h2>{{name}}</h2>
+            <p>Why would I go here: {{factor}} </p>
+            <p>Would I eat here: {{Eating}}</p>
+            <p>How would I get here: {{Transportation}}</p>
+        </li>
+        {{/each}}
+    </script> 
+
+    <script src="/js/handlebars-v4.7.3.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/scripts.js"></script>
+
+
+
+</body>
+</html>
